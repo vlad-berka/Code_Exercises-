@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+main, .nested_article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+aside {
+    flex: 1 1 10vw;
+    background-color: red;
+}
+
+article {
+    flex: 4 1 30vw;
+    height: 20vh;
+    background-color: blue;
+}
+
+header, footer {
+    flex: 1 1 100vw;
+    background-color: green;
+}
+
+h2 {
+    text-align: right;
+}
